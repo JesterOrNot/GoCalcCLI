@@ -11,6 +11,7 @@ func main() {
 	doubleMe(*doubledNum)
 	flag.Args()
 }
+
 func doubleMe(num int) {
 	if num == 0 {
 		print()
